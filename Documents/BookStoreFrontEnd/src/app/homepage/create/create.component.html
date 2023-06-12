@@ -1,0 +1,92 @@
+<body>
+    
+<div class="container">
+    <div style="background-color: black; padding: 20px; ">
+    <h1 style="color: white;"><a href="#" style="color: white;"><i class="material-icons" style="padding-right: 40%;" routerLink="/home" routerLinkActive="active">arrow_back</i></a>Add Book Details</h1></div>
+    <form #userForm="ngForm"  style="padding: 5%;" >
+
+        <div class="info">
+    <div class="mb-3">
+       
+      <input 
+      style="width: 40%;"
+      placeholder="Book Name..."
+      type="text" 
+      class="form-control" 
+      id="bookname" 
+      aria-describedby="emailHelp"
+      name="bookname"
+      [(ngModel)]="book.bookname" 
+      required #bookname="ngModel" 
+      minlength="4" 
+      >
+      <div *ngIf="bookname.invalid && (bookname.dirty || bookname.touched)"
+    class="alert">
+
+  <div class="text-danger" *ngIf="bookname.errors?.['required']">
+    Name is required.
+  </div>
+  <div class="text-danger" *ngIf="bookname.errors?.['minlength']">
+    Name must be at least 4 characters long.
+  </div></div>
+  </div>
+
+  <div class="mb-3">
+
+    <input style="width: 40%;"
+    placeholder="Author Name..."
+    type="text" 
+    class="form-control" 
+    id="author" 
+    aria-describedby="emailHelp"
+    name="author"
+    [(ngModel)]="book.author" 
+    required #author="ngModel"
+    minlength="4" 
+      >
+      <div *ngIf="author.invalid && (author.dirty || author.touched)"
+    class="alert">
+
+  <div class="text-danger" *ngIf="author.errors?.['required']">
+    Author Name is required.
+  </div>
+  <div class="text-danger" *ngIf="author.errors?.['minlength']">
+    Name must be at least 4 characters long.
+  </div></div>
+           
+</div>
+
+<div class="mb-3">
+  <textarea 
+  style="width: 70%"
+  maxlength = "500"
+  placeholder="Briefly Describe(max 500) ..."
+   type="text" 
+  class="form-control" 
+  id="description" 
+  aria-describedby="emailHelp"
+  name="details"
+  [(ngModel)]="book.details"
+  required #details="ngModel" 
+  minlength="100" 
+  ></textarea>
+  <div *ngIf="details.invalid && (details.dirty || details.touched)"
+class="alert">
+
+<div class="text-danger" *ngIf="details.errors?.['required']">
+Details is required.
+</div>
+<div class="text-danger" *ngIf="details.errors?.['minlength']">
+Name must be at least 100 characters long.
+</div>
+</div>     
+
+</div>
+<button type="submit" [disabled]="userForm.pristine || userForm.invalid" (click)="create()" class="btn btn-success" style="margin: 20px;">Submit</button>
+</div>
+
+
+  </form>
+  
+</div>
+</body>

@@ -1,0 +1,17 @@
+body{
+    padding: 200px;
+    background: #74ebd5;
+    background: -webkit-linear-gradient(to right, #74ebd5, #ACB6E5);
+    background: linear-gradient(to right, #74ebd5, #ACB6E5);
+}
+div.contain{
+    background-color: #ffffff;
+  border: 0px;
+  opacity: 0.6;
+}
+div.contain table{
+    font-weight: bold;
+  color: #000000;
+  font-size: 20px;
+  height: 50px;
+}

@@ -1,0 +1,68 @@
+body{
+  /* background: #74ebd5;
+    background: -webkit-linear-gradient(to right, #74ebd5, #ACB6E5);
+    background: linear-gradient(to right, #74ebd5, #ACB6E5);*/
+    min-height: 100vh; 
+    background: url("https://t3.ftcdn.net/jpg/05/59/76/82/360_F_559768283_VlC6LPmjv18zWHsYEF858Jl8wJXnZcNX.jpg") ;
+    height: 200%;
+ 
+  background-repeat: no-repeat;
+  background-size:cover;
+  position:absolute;
+  width: 100%;
+  opacity: 0.9;
+font-size: 10px;
+}
+div.contain{
+  margin: 5%;
+  /*  */
+font-size: 13px;
+position:absolute;
+  background-color: #ffffff;
+  border: 0px;
+  opacity: 0.6;
+}
+a{
+  
+  padding-right: 50%;
+  font-size: 50px;
+  text-align: center;
+  font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+
+tr{
+  color: #000000;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.search-box i{
+  position: relative;
+  left: 32px;
+  top: 5px;
+}
+.image{
+  position:fixed;
+  left: 90%;
+  }
+  .search-box{
+  position:relative;
+  float: right;
+  padding-top: 20px;
+  padding-right: 8px;
+  right: 200px;
+  }
+  .search-box input{
+   border-radius:60px ;
+   width: 250px;
+   float: right ;
+   box-shadow: 0;
+   right: 50px;
+  }
+  
+  #detail{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    
+  }
