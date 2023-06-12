@@ -1,0 +1,5 @@
+package com.example.food.court.model;
+
+public class Menu {
+
+}

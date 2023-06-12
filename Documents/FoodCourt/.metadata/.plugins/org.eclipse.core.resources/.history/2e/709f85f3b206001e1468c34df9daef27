@@ -1,0 +1,5 @@
+package com.example.food.court.repository;
+
+public interface MenuRepo {
+
+}

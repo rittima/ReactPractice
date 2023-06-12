@@ -1,0 +1,10 @@
+package com.example.food.court.repository;
+
+import org.springframework.data.mongodb.repository.MongoRepository;
+
+import com.example.food.court.model.Menu;
+
+public interface MenuRepo extends MongoRepository<Menu, Long> {
+
+	
+}
