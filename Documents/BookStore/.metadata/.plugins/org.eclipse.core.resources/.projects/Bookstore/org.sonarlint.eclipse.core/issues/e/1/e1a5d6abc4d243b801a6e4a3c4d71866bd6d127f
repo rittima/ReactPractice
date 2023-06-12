@@ -1,0 +1,31 @@
+
+„	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(üÎ›HßRMINORZ
+CODE_SMELL
+i
+java:S1135"2Complete the task associated to this TODO comment.(ƒŠ® úÿÿÿÿ8¹‚‰„ş0HRINFOZ
+CODE_SMELL
+i
+java:S1135"2Complete the task associated to this TODO comment.(ƒŠ® úÿÿÿÿ8¹‚‰„ş0HRINFOZ
+CODE_SMELL
+i
+java:S1135"2Complete the task associated to this TODO comment.(ƒŠ® úÿÿÿÿ8¹‚‰„ş0H‘RINFOZ
+CODE_SMELL
+i
+java:S1135"2Complete the task associated to this TODO comment.(ƒŠ® úÿÿÿÿ8¹‚‰„ş0H’RINFOZ
+CODE_SMELL
+i
+java:S1135"2Complete the task associated to this TODO comment.(ƒŠ® úÿÿÿÿ8¹‚‰„ş0H“RINFOZ
+CODE_SMELL
+s
+java:S1144
+";Remove this unused private "SequenceException" constructor.( à«¦ûÿÿÿÿ8¹‚‰„ş0H”RMAJORZ
+CODE_SMELL
+m
+java:S1144";Remove this unused private "SequenceException" constructor.(ìâ«*8¹‚‰„ş0H–RMAJORZ
+CODE_SMELL
+m
+java:S1144";Remove this unused private "SequenceException" constructor.(Äæ 78¹‚‰„ş0H˜RMAJORZ
+CODE_SMELL
+m
+java:S1144";Remove this unused private "SequenceException" constructor.(¡øÖ8¹‚‰„ş0HšRMAJORZ
+CODE_SMELL
